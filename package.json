@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "json-server": "json-server kinopoisk.json",
-    "deploy": "bash deploy.sh"
+    "json-server": "json-server kinopoisk.json"
   },
   "dependencies": {
     "axios": "^1.4.0",
