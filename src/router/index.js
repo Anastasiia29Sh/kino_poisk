@@ -5,17 +5,17 @@ import BookmarksEstimates from '@/pages/BookmarksEstimates.vue'
 
 const routes = [
   {
-    path: '/kino_poisk/',
+    path: '/',
     name: 'main',
     component: Main,
   },
   {
-    path: '/kino_poisk/film/:id',
+    path: '/film/:id',
     name: 'film',
     component: FilmIdPage
   },
   {
-    path: '/kino_poisk/BookmarksEstimates',
+    path: '/BookmarksEstimates',
     name: 'BookmarksEstimates',
     component: BookmarksEstimates
   },

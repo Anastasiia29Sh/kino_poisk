@@ -59,7 +59,7 @@ export default {
       this.isSearch = false;
       this.$root.searchNameFilm = "";
       document.getElementById("search").value = "";
-      this.$router.push(`/kino_poisk/film/${idFilm}`);
+      this.$router.push(`/film/${idFilm}`);
     },
   },
 };

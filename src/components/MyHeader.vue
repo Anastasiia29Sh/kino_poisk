@@ -1,17 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark sticky-top header">
     <div class="container-fluid">
-      <router-link
-        to="/kino_poisk/"
-        class="navbar-brand"
-        @click="cleanSearchInput"
-      >
+      <router-link to="/" class="navbar-brand" @click="cleanSearchInput">
         <img src="../assets/logo_kinopoisk.png" alt="" />
       </router-link>
-      <router-link
-        to="/kino_poisk/"
-        class="navbar-brand mylogo"
-        @click="cleanSearchInput"
+      <router-link to="/" class="navbar-brand mylogo" @click="cleanSearchInput"
         >КиноПоиск</router-link
       >
       <button
@@ -25,16 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <router-link
-              to="/kino_poisk/"
-              class="nav-link"
-              @click="cleanSearchInput"
+            <router-link to="/" class="nav-link" @click="cleanSearchInput"
               >Главная</router-link
             >
           </li>
           <li class="nav-item">
             <router-link
-              to="/kino_poisk/BookmarksEstimates"
+              to="/BookmarksEstimates"
               class="nav-link"
               @click="cleanSearchInput"
               >Закладки|Оценки</router-link
