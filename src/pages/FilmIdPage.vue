@@ -52,7 +52,8 @@ export default {
     },
     $route(to, from) {
       this.filmId = this.$route.params.id;
-      window.location.reload();
+      this.getInfoFilm();
+      // window.location.reload();
     },
     searchNameFilm() {
       let searchNameFilm = this.searchNameFilm;
