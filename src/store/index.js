@@ -15,8 +15,9 @@ export default createStore({
   },
   actions: {
     async fetchFilms({state, commit}) {
-      axios.get("http://localhost:3000/docs").then((res) => {
-        commit('setAllFilms', res.data);
+      // http://localhost:3000/docs
+      axios.get("https://anastasiia29sh.github.io/api_kino/kinopoisk.json").then((res) => {
+        commit('setAllFilms', res.data.docs);
       });
     },
   },
